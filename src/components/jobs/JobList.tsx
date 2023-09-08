@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './jobs.css';
 import JobItem from './JobItem';
 
