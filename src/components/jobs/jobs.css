@@ -1,0 +1,24 @@
+img {
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 768px) {
+    img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+      font-size: 12px; /* Or any size you'd like */
+    }
+  }
+
+@media (min-width: 1024px) {  /* Adjust the width according to your needs */
+    .listing-full {
+      display: block;
+    }
+  }
