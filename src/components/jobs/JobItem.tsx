@@ -21,7 +21,7 @@ const JobItem: React.FC<JobItemProps> = ({ job, onSelect }) => {
     <div className="m-3">
     <div className="top-portion flex md:flex-row justify-between items-center">
         <div className="info-container flex flex-row mt-2 mx-2">
-        <div className="company-icon">
+        <div className="company-icon shrink-0" >
             <img className="border rounded-md" src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"></img>
         </div>
         <div className="job-info text-left ml-2">
@@ -33,8 +33,8 @@ const JobItem: React.FC<JobItemProps> = ({ job, onSelect }) => {
             <p>{job.specialisation}</p>
         </span>
       </div>
-      <div className="listing-details flex ml-[56px] md:ml-[66px] items-center">
-            <p className="text-green-500 font-bold">{job.date}</p>
+      <div className="listing-details flex ml-[56px] md:ml-[66px] items-center justify-start">
+            <p className="text-green-500 font-bold text-left m-0 p-0">{job.date}</p>
             <div className="flex items-center mx-2">
                 {/* Copied SVG from original site directly */}
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" className="svg-inline--fa fa-map-marker-alt h-4 w-3 mx-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
